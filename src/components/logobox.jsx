@@ -1,10 +1,10 @@
-import logo from "../assets/logo.webp";
-function Logobox(){
+import logo from "../assets/logo-financas.webp";
+
+export default function Logobox(){
 
     return(
         <>
-           <div className="logobox"><img src="{Logo}" alt="" /></div>
+           <div className="logobox"><img src={logo} alt="" /></div>
         </>
     )
 }
-export default Logobox;

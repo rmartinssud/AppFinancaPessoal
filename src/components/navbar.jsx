@@ -1,6 +1,6 @@
-import {Logobox} from "./logobox.jsx"
+import Logobox from "./logobox.jsx"
 
-function Navbar(){
+export default function Navbar(){
 
 
     return(
@@ -10,4 +10,5 @@ function Navbar(){
            </div>
         </>
     )
+   
 }
